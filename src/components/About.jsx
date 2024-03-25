@@ -6,7 +6,8 @@ import { styles } from "../styles";
 import { services } from "../constants/index";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-console.log('services');
+
+
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
